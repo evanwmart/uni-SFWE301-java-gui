@@ -25,15 +25,17 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public static void showMainPage(Stage primaryStage) {
+    public static void showMainPage(Stage primaryStage, Scene sceneInput) {
         Label welcomeLabel = new Label("Welcome!");
-        StackPane root = new StackPane();
+        StackPane root2 = new StackPane();
 
-        root.getChildren().add(welcomeLabel);
-
-        Scene scene = new Scene(root, 1000, 800);
+        root2.getChildren().add(welcomeLabel);
+        
+        
+        sceneInput.setRoot(root2);
         primaryStage.setTitle("Main Page");
-        primaryStage.setScene(scene);
+        primaryStage.setScene(sceneInput);
+        primaryStage.setFullScreen(true);
         primaryStage.show();
     }
 }

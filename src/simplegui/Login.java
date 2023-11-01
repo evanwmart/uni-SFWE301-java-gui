@@ -42,7 +42,7 @@ public class Login extends VBox {
 
             if (authenticate(username, password)) {
                 System.out.println("Login Succeeded");
-                Main.showMainPage(primaryStage);
+                Main.showMainPage(primaryStage, primaryStage.getScene());
             } else {
                 System.out.println("Login Failed");
             }
