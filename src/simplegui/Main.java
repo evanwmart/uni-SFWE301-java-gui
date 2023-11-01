@@ -31,7 +31,6 @@ public class Main extends Application {
 
         root2.getChildren().add(welcomeLabel);
         
-        
         sceneInput.setRoot(root2);
         primaryStage.setTitle("Main Page");
         primaryStage.setScene(sceneInput);
