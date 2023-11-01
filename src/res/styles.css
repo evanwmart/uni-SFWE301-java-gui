@@ -1,0 +1,38 @@
+.root {
+    -fx-alignment: center;
+    -fx-font-family: "Verdana";
+}
+
+.container {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-radius: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 5, 5);
+}
+
+.title-label {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8db5ad;
+}
+
+.login-button {
+    -fx-background-color: #074c73; 
+    -fx-text-fill: white; 
+    -fx-font-size: 25px; 
+}
+
+.login-button:hover {
+    -fx-background-color: #8db5ad; 
+}
+
+.username-field {
+    -fx-font-size: 20px;
+}
+
+.password-field {
+    -fx-font-size: 20px;
+}
