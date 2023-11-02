@@ -19,7 +19,7 @@ public class Main extends Application {
         StackPane root = new StackPane(login);
 
         Scene scene = new Scene(root, 1000, 800);
-        scene.getStylesheets().add("res/styles.css");
+        scene.getStylesheets().add("/res/styles.css");
         primaryStage.setScene(scene);
         primaryStage.setFullScreen(true);
         primaryStage.show();
